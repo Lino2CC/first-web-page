@@ -1,0 +1,24 @@
+.headline {
+    font-size: 42px;
+    font-style: italic;
+}
+
+.featured {
+    color: red;
+}
+
+.wordFormatGreenArial {
+    color: green;
+    font-size: 25px;
+    font-style: arial;
+}
+
+.centred_image {
+    display: block;
+    margin: auto;
+}
+
+.centerWord{
+
+text-align:center;
+}

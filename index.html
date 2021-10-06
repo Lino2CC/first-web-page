@@ -7,14 +7,81 @@
                                        initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie-edge">
         <title>HTML Exercise 1</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- main body -->
+
         <h1>Hello World!</h1>
         <p>This is my first web page</p>
-        <img
-        src="https://media.giphy.com/media/J4Z2lc7cnG0Yo/giphy.gif" alt="a gif">
+        <!-- Part 6 > link to another web page -->
+        <p><a href="#i1">1. link to another web page</a></p>
+        <p><a href="#i2">2. show some image</a></p>
+        <p><a href="#i3">3. show some List</a></p>
+        <p><a href="#i4">4. show some headings & paragraphs</a>
+
+        <!-- Part 1 > link to another webpage -->
+        <div id="i1"></div>
+        <h1 class="headline featured">Here show link to another webpage</h1>
+        <p>
+            More cat gif can click this link
+            <a href="https://giphy.com/search/cat">moreCatGif</a>
+        </p>        
         
+        <!-- Part 2 > image -->
+        <div id="i2"></div>
+        <h1 class="headline featured">Here show some image</h1>
+        <p  class="wordFormatGreenArial">This is one of my favor cat gif & not put in the center</p>
+        <img
+         src='https://media.giphy.com/media/J4Z2lc7cnG0Yo/giphy.gif' alt='a gif'>
+
+        <div class="centerWord">
+           <p><h1>This is one of cute cat gif & put it in the center</h1></p>
+        </div>
+        <img
+         class="centred_image" src='https://media.giphy.com/media/MWSRkVoNaC30A/giphy-downsized-large.gif' alt='a centred_image gif'>
+
+        <!-- Part 3 > list -->
+        <div id="i3"></div>
+        <h1 class="headline featured">Here show some List</h1>
+
+        <h1>Ordered List</h1>
+        <p>
+            <ol>
+                <li class="wordFormatGreenArial">First  Item</li>
+                <li class="wordFormatGreenArial">Second Item</li>
+                <li class="wordFormatGreenArial">Third  Item</li>
+            </ol>
+        </p>
+
+        <h1>Unordered List</h1>
+        <p>
+            <ul>
+                <li>First   Item</li>
+                <li>Second  Item</li>
+                <li>Third   Item</li>
+            </ul>
+        </p>
+
+        <!-- Part 4 & 5 >  -->
+        <h1 class="headline featured">Here show a range of headings & paragraphs of text</h1>
+        <div id="i4"></div>
+
+        <h1>A range of heading</h1>
+        <p>Paragraphs 1 of text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+        <h4>Head 1</h4>
+        <p>Paragraphs 2 of text show other format =>
+            <em>This is Ltalic format</em>, => 
+            <strong>This is Bold words</strong>, => 
+            <small>This is Small words</small>, =>
+            <sub>This is subscript words</sub>, =>
+            <sup>This is superscript words</sup>, =>
+            <ins>This is the words with Underline</ins>, =>
+            <del>This is the words with Strikethrough</del>, =>
+            <mark>This is Hightlight the words with yellow color</mark> => end of this Paragraphs
+        </p>
+        <h4>Head 2</h4>
+        <p>Paragraphs 3 of text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </p>
+
         
     </body>
 </html>
